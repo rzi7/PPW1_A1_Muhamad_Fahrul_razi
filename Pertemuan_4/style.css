@@ -1,0 +1,23 @@
+/* styles.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo {
+    color: orange;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    margin: 5px;
+}
+
+.login-container {
+    /* Style as per your requirement */
+}
