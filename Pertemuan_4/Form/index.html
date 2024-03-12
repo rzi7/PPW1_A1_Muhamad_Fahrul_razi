@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendafataran Masuk Surga</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="gambar jarak">
+                <img src="logo.png" alt="logo">
+                <div class="konten">
+                    <h3>Pendafataran Anak Alam</h3>
+                    <p>Daftarlah segera, maka anda akan merasakan manfaat keknya</p>
+                </div>
+            </div>
+            <div class="formulir jarak">
+                <form>
+                    <label for="fullname">Nama Lengkap <a class="requir">*</a></label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Budi Setiawati" required>
+                    <label for="tgl">Tanggal Lahir <a class="requir">*</a></label> 
+                    <input type="date" id="tgl" name="tgl" required> 
+                    <label for="email">Email UGM <a class="requir">*</a></label>
+                    <input type="email" id="email" name="email" placeholder="abc@mail.ugm.ac.id" required>
+                    <label for="password">Password Email UGM <a class="requir">*</a></label> 
+                    <input type="password" required>
+                    <label for="hobi">Hobi Anda <a class="requir">*</a></label>
+                    <div class="checkbox">
+                        <input type="checkbox" id="hobi" name="hobi"> Makan
+                        <input type="checkbox" id="hobi" name="hobi"> Turu
+                        <input type="checkbox" id="hobi" name="hobi"> Jalan
+                        <input type="checkbox" id="hobi" name="hobi"> Ngoding
+                    </div>
+                    <label for="motivasi">Apa motivasi anda mendaftar anak alam</label>
+                    <textarea name="motivasi" id="motivasi" cols="30" rows="5" placeholder="contoh : Karena sepertinya menarik" required></textarea>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
