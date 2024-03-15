@@ -1,0 +1,68 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    white-space: pre;
+}
+
+.contoh1 {
+    background-color: red;
+    text-indent: 50px;
+}
+
+.contoh2 {
+    background-color: rgb(93, 93, 235);
+    letter-spacing: 10px;
+}
+
+.contoh3 {
+    word-spacing: 30px;
+    background-color: #dc2c2c;
+}
+
+.contoh4 {
+    background-color: aquamarine;
+    line-height: 40px;
+}
+
+.contoh5 {
+    background-color: #f7f7f7;
+    white-space: nowrap;
+}
+
+.contoh6 {
+    background-color: yellow;
+    white-space: normal;
+}
+
+.contoh7 {
+    background-color: yellow;
+    white-space: pre;
+}
+
+.contoh8 {
+    background-color: wheat;
+    white-space: pre-line;
+}
+
+.contoh9 {
+    background-color: violet;
+    white-space: pre-wrap;
+}
+
+.contoh10 {
+    background-color: #d2d2d2;
+    white-space: initial;
+}
+
+.contoh11 {
+    background-color: #ff00d4;
+    white-space: inherit;
+}
+
